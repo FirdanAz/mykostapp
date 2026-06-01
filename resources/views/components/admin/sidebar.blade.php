@@ -3,7 +3,7 @@
     <span class="sidebar-text">MyKostApp</span>
 </div>
 
-<<nav class="sidebar-nav">
+<nav class="sidebar-nav">
     <div class="nav-item">
         <a href="#" class="nav-link {{ request()->routeIs('admin.dashboard') ? 'active' : '' }}">
             <i class="bi bi-grid-1x2-fill"></i>
@@ -48,16 +48,11 @@
     </nav>
 
     <div class="sidebar-footer">
-        {{-- <form method="POST" action="{{ route('logout') }}">
+        <form method="POST" action="{{ route('logout') }}">
             @csrf
             <button type="submit" class="nav-link w-100 border-0 bg-transparent" style="cursor: pointer;">
                 <i class="bi bi-box-arrow-right"></i>
                 <span class="sidebar-text">Logout</span>
             </button>
-        </form> --}}
-
-        <a href="#" class="nav-link">
-            <i class="bi bi-box-arrow-right"></i>
-            <span class="sidebar-text">Logout</span>
-        </a>
+        </form>
     </div>

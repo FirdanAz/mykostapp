@@ -32,7 +32,8 @@
             <i class="bi bi-chevron-down small text-muted"></i>
         </button>
         <ul class="dropdown-menu dropdown-menu-end border-0 shadow-lg" style="border-radius: 0.75rem;">
-            <li><a class="dropdown-item py-2" href="#"><i class="bi bi-person me-2"></i> Profil</a></li>
+            <li><a class="dropdown-item py-2" href="{{ route('profile.edit') }}"><i class="bi bi-person me-2"></i>
+                    Profil</a></li>
             <li><a class="dropdown-item py-2" href="#"><i class="bi bi-gear me-2"></i> Pengaturan</a></li>
             <li>
                 <hr class="dropdown-divider">

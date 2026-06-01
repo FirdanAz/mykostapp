@@ -1,11 +1,6 @@
 // Bootstrap 5
-@import "~bootstrap/scss/bootstrap";
-
-// Bootstrap Icons
-@import "~bootstrap-icons/font/bootstrap-icons";
-
-// SweetAlert2 Theme
-@import "~sweetalert2/src/sweetalert2";
+@use "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";
 
 // ==========================================
 // MYKOSTAPP CUSTOM THEME
